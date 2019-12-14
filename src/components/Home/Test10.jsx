@@ -7,7 +7,7 @@ import {actions} from './storeAction'
 
 const Test10 =({count,correct})=>(
     <div>
-        <h1 className={style.center}>document.write(sum=a+b ) is a valid javascript statement.</h1>
+        <h1 className={style.center}>document.write( sum = a + b ) is a valid javascript statement.</h1>
         <Link className={style.nounderline} href="/done">
             <button className={style.myButtonTrue} style={{fontSize:"20px"}}> True</button>
         </Link>

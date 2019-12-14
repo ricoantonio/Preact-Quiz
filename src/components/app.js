@@ -5,8 +5,6 @@ import { Router } from 'preact-router';
 import github from '../components/githublogo.png'
 import style from './style'
 // Code-splitting is automated for routes
-import Home from '../routes/home';
-import Profile from '../routes/profile';
 import Home2 from './Home/Home'
 import Test1 from './Home/Test1'
 import Test2 from './Home/Test2'
@@ -41,7 +39,7 @@ export default class App extends Component {
 	render() {
 		return (
 			<div id="app" style={{backgroundColor:"orange"}}>
-				<a href='https://github.com/ricoantonio' target="_blank">
+				<a href='https://github.com/ricoantonio/Preact-Quiz' target="_blank">
 					<img className={style.img} style={{width:"70px", padding:10, cursor:"pointer"}} src={github}/>
 				</a>
 				<Router onChange={this.handleRoute}>
