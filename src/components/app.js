@@ -42,7 +42,7 @@ export default class App extends Component {
 		return (
 			<div id="app" style={{backgroundColor:"orange"}}>
 				<a href='https://github.com/ricoantonio' target="_blank">
-					<img className={style.img} style={{width:"50px", padding:10, cursor:"pointer"}} src={github}/>
+					<img className={style.img} style={{width:"70px", padding:10, cursor:"pointer"}} src={github}/>
 				</a>
 				<Router onChange={this.handleRoute}>
 					<Home2 path="/" />
