@@ -68,7 +68,7 @@ export class App extends Component {
 			</Router>
 		</div> :
 		this.props.main == 'phy' ?
-			<div id="app" style={{backgroundColor:"DodgerBlue"}}>
+			<div id="app" style={{backgroundColor:"powderblue"}}>
 				<a href='https://github.com/ricoantonio/Preact-Quiz' target="_blank">
 					<img className={style.img} style={{width:"70px", padding:10, cursor:"pointer" }} src={github}/>
 				</a>
